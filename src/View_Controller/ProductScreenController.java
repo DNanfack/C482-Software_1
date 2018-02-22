@@ -255,7 +255,7 @@ public class ProductScreenController {
             for (int i = 0; i < currentParts.size(); i++) {
                 partCost += currentParts.get(i).getPrice();
             }
-            if(partCost > dPrice) {
+            if(dPrice != null && partCost > dPrice) {
                 errorMessage += ("Product price ("+dPrice+") must be greater than the sum of the parts ("+partCost+")\n");
             }
         }

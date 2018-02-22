@@ -16,7 +16,7 @@
          <children>
             <HBox layoutX="225.0" layoutY="45.0" prefHeight="28.0" prefWidth="266.0">
                <children>
-                  <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#searchParts" prefHeight="25.0" prefWidth="60.0" text="Search" />
+                  <Button maxHeight="-Infinity" minHeight="-Infinity" minWidth="60.0" mnemonicParsing="false" onAction="#searchParts" prefHeight="25.0" text="Search" />
                   <TextField fx:id="searchPart">
                      <HBox.margin>
                         <Insets left="20.0" />
@@ -34,13 +34,13 @@
             </TableView>
             <HBox layoutX="260.0" layoutY="285.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="28.0" prefWidth="231.0">
                <children>
-                  <Button maxHeight="-Infinity" maxWidth="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#addPart" prefHeight="25.0" prefWidth="60.0" text="Add" />
-                  <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#changePart" prefHeight="25.0" prefWidth="60.0" text="Modify">
+                  <Button maxHeight="-Infinity" minWidth="60.0" mnemonicParsing="false" onAction="#addPart" prefHeight="25.0" text="Add" />
+                  <Button maxHeight="-Infinity" minHeight="-Infinity" minWidth="60.0" mnemonicParsing="false" onAction="#changePart" prefHeight="25.0" text="Modify">
                      <HBox.margin>
                         <Insets left="20.0" />
                      </HBox.margin>
                   </Button>
-                  <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#deletePart" prefHeight="25.0" prefWidth="60.0" text="Delete">
+                  <Button maxHeight="-Infinity" minHeight="-Infinity" minWidth="60.0" mnemonicParsing="false" onAction="#deletePart" prefHeight="25.0" text="Delete">
                      <HBox.margin>
                         <Insets left="20.0" />
                      </HBox.margin>
@@ -61,7 +61,7 @@
          <children>
             <HBox layoutX="264.0" layoutY="43.0" prefHeight="28.0" prefWidth="254.0">
                <children>
-                  <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#searchProducts" prefHeight="25.0" prefWidth="60.0" text="Search" />
+                  <Button maxHeight="-Infinity" minHeight="-Infinity" minWidth="60.0" mnemonicParsing="false" onAction="#searchProducts" prefHeight="25.0" text="Search" />
                   <TextField fx:id="searchProduct">
                      <HBox.margin>
                         <Insets left="20.0" />
@@ -79,13 +79,13 @@
             </TableView>
             <HBox layoutX="287.0" layoutY="284.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="28.0" prefWidth="231.0">
                <children>
-                  <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#addProduct" prefHeight="25.0" prefWidth="60.0" text="Add" />
-                  <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#changeProduct" prefHeight="25.0" prefWidth="60.0" text="Modify">
+                  <Button maxHeight="-Infinity" minHeight="-Infinity" minWidth="60.0" mnemonicParsing="false" onAction="#addProduct" prefHeight="25.0" text="Add" />
+                  <Button maxHeight="-Infinity" minHeight="-Infinity" minWidth="60.0" mnemonicParsing="false" onAction="#changeProduct" prefHeight="25.0" text="Modify">
                      <HBox.margin>
                         <Insets left="20.0" />
                      </HBox.margin>
                   </Button>
-                  <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#deleteProduct" prefHeight="25.0" prefWidth="60.0" text="Delete">
+                  <Button maxHeight="-Infinity" minHeight="-Infinity" minWidth="60.0" mnemonicParsing="false" onAction="#deleteProduct" prefHeight="25.0" text="Delete">
                      <HBox.margin>
                         <Insets left="20.0" />
                      </HBox.margin>
@@ -102,7 +102,7 @@
             <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
          </padding>
       </AnchorPane>
-      <Button layoutX="987.0" layoutY="411.0" maxHeight="-Infinity" maxWidth="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#exitProgram" prefHeight="25.0" prefWidth="60.0" text="Exit" />
+      <Button layoutX="987.0" layoutY="411.0" maxHeight="-Infinity" minWidth="60.0" mnemonicParsing="false" onAction="#exitProgram" prefHeight="25.0" text="Exit" />
       <Label layoutX="14.0" layoutY="14.0" text="Inventory Management System">
          <font>
             <Font name="System Bold" size="18.0" />
